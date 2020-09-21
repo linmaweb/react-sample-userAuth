@@ -1,0 +1,16 @@
+.nav-wrapper {
+  background: #666;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav a,
+.nav span {
+  color: white;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

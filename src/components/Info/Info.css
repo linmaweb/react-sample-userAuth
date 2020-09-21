@@ -1,0 +1,125 @@
+.user {
+  width: 100%;
+  max-width: 290px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.user .userWrapper .imgWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.user .userWrapper .row {
+  overflow: hidden;
+}
+
+.user .userWrapper .row .info {
+  padding: 14px 0;
+}
+
+.user .userWrapper .row .desc p {
+  margin: 20px 0;
+  word-wrap: break-word;
+}
+
+.user .userWrapper .row .links {
+  padding: 14px 0;
+}
+
+.user .userWrapper .row .links p,
+.user .userWrapper .row .links a {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #24292e;
+}
+
+.user .userWrapper .row .links i {
+  margin-right: 14px;
+  color: #24292e;
+}
+
+.user .userWrapper .row .links i a {
+  text-decoration: none;
+  display: inline-block;
+  color: #24292e;
+  padding: 6px 0 0 0;
+  word-wrap: break-word;
+}
+
+.user .userWrapper .row .links a:hover {
+  color: #0366d6;
+}
+
+@media (max-width: 670px) {
+  .user .useContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user .useContainer .imgWrapper {
+    width: 100%;
+    max-width: 40%;
+    height: 150px;
+  }
+  .user .useContainer .imgWrapper img {
+    width: 100%;
+    height: 100%;
+  }
+  .user .useContainer .row {
+    width: 100%;
+    max-width: 56%;
+  }
+  .user .useContainer .row .info,
+  .user .useContainer .row .links {
+    padding: 0;
+  }
+  .user .useContainer .row .desc p {
+    margin: 12px 0;
+  }
+}
+
+@media (min-width: 671px) and (max-width: 989px) {
+  .user .userWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user .userWrapper .imgWrapper {
+    width: 100%;
+    max-width: 40%;
+  }
+  .user .userWrapper .imgWrapper img {
+    width: 100%;
+    height: 100%;
+  }
+  .user .userWrapper .row {
+    width: 100%;
+    max-width: 55%;
+  }
+  .user .userWrapper .row .info,
+  .user .userWrapper .row .links {
+    padding: 0;
+  }
+}
+
+@media (max-width: 989px) {
+  .user {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .user .userWrapper .row .desc p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1250px) {
+  .user {
+    max-width: 26%;
+  }
+}

@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
+
+.formWrapper {
+  text-align: center;
+}
+
+.formWrapper h2 {
+  font-family: "Archivo Black", sans-serif;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.formWrapper form {
+  max-width: 30rem;
+  margin: 30px auto;
+}
+
+.formWrapper input {
+  width: 100%;
+  display: block;
+  padding: 14px;
+  border: thin solid #eee;
+  border-radius: 4px;
+  outline: none;
+  background: #f6f8fa;
+  color: #24292e;
+  margin-bottom: 20px;
+}
+
+.formWrapper button {
+  width: 100%;
+  padding: 14px;
+  background: #666;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.formWrapper button:hover {
+  background: #24292e;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 90%;
+  }
+}
