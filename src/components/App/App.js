@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import firebase from "firebase/app";
 import "firebase/auth";
 import { GithubContext, firebaseConfig } from "../../config";
+import Title from "../Title/Title";
 import Nav from "../../components/Nav/Nav";
 import Home from "../Home/Home";
 import Signin from "../Signin/Signin";
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <Router>
       <GithubContext.Provider value={{ user, setUser }}>
+        <Title type="User Authentication" />
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
