@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { GithubContext } from "../../config";
+import GithubContext from "../../context/GithubContext";
 import "./Nav.css";
 
 const Nav = () => {

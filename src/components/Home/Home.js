@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { GithubContext } from "../../config";
+import GithubContext from "../../context/GithubContext";
 import { Redirect } from "react-router-dom";
 import Axios from "axios";
 import Info from "../Info/Info";

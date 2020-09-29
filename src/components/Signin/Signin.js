@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import firebase from "firebase/app";
-import { GithubContext } from "../../config";
+import GithubContext from "../../context/GithubContext";
 import { Redirect } from "react-router-dom";
 
 const Signin = () => {
