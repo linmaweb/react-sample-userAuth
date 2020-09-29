@@ -3,13 +3,13 @@
 /***********************************************/
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCu_nyRqgeWyvdrOjj5CIp-AcPVQFgoR9U",
-  authDomain: "github-user-search-16862.firebaseapp.com",
-  databaseURL: "https://github-user-search-16862.firebaseio.com",
-  projectId: "github-user-search-16862",
-  storageBucket: "github-user-search-16862.appspot.com",
-  messagingSenderId: "847916237100",
-  appId: "1:847916237100:web:085a0c51e4f093dedc2c89",
+  apiKey: "YOUR FIREBASE CONFIG HERE",
+  authDomain: "YOUR FIREBASE CONFIG HERE",
+  databaseURL: "YOUR FIREBASE CONFIG HERE",
+  projectId: "YOUR FIREBASE CONFIG HERE",
+  storageBucket: "YOUR FIREBASE CONFIG HERE",
+  messagingSenderId: "YOUR FIREBASE CONFIG HERE",
+  appId: "YOUR FIREBASE CONFIG HERE",
 };
 
 export default firebaseConfig;
